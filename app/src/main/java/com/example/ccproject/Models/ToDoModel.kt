@@ -7,4 +7,8 @@ class ToDoModel {
     var status = 0
     @JvmField
     var task: String? = null
+        override fun toString(): String {
+            return "$task"
+        }
+
 }
